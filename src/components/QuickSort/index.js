@@ -16,7 +16,7 @@ const QuickSort = () => {
   const [sortingComponents, setSortingComponents] = useState([]);
   const [bars, setBars] = useState(10);
   const [isSorting, setIsSorting] = useState(false);
-  const [activateBTN, setActivateBtn]= useState(null);
+  const [activateBTN, setActivateBtn]= useState(1);
   const location = useLocation();
   const isMergeSort = location.pathname === '/mergesort';
   const isBubbleSort = location.pathname === '/bubblesort';
